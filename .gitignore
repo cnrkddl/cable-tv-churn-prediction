@@ -1,0 +1,36 @@
+# 데이터 파일 (용량 크고 민감 정보 포함)
+dataset/
+*.parquet
+*.csv
+*.duckdb
+
+# 스트림릿 data 폴더
+*/data/*.parquet
+*/data/*.csv
+
+# macOS 시스템 파일
+.DS_Store
+.Rhistory
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter 체크포인트
+.ipynb_checkpoints/
+
+# 압축 파일 (불필요)
+*.zip
+
+# 로그
+logs/
+*.log
+
+# 환경 변수
+.env
+
+# 포트폴리오 (로컬 보관용)
+portfolio/
